@@ -10,11 +10,6 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This  app lets you keep track of interesting places. It needs access to the GPS
-coordinates for your location.</string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
@@ -23,10 +18,17 @@ coordinates for your location.</string>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Add photos to your locations</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This  app lets you keep track of interesting places. It needs access to the GPS
+coordinates for your location.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Add photos to your locations</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -34,6 +36,8 @@ coordinates for your location.</string>
 		<string>armv7</string>
 		<string>location-services</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>
